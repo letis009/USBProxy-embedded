@@ -194,24 +194,6 @@ Options:
 
 There is a new option `-z` which registers the ZeroMQ filter.
 
-GPG
----------
-
-#### Add our key to your keychain!
-
-We use [GPG](https://de.wikipedia.org/wiki/GNU_Privacy_Guard) to sign our binary releases.
-In order to install packages from internal repositories, you must add our key for SecureApt to work.
-The GitHub releases do not provide signatures - just download the respective .deb file and you are ready to go.
-
-<a target="_blank" href="https://keyoxide.org/F1C6636C27019FD0D29307DEAE25CBF30C0DDB0C" rel="Nesto Cloud Operations">![Nesto Cloud Operations](.github/imgs/gpg_qr.svg)</a> 
-
-<img align="left" src=".github/imgs/openkeychain.png" width="50px">   
-<a target="_blank" href="https://www.openkeychain.org/">Download OpenKeychain for Android</a><br />
-<a target="_blank" href="https://gnupg.org/download/">Download GNU Privacy Guard for Linux</a>
-<br clear="both">
-<br />
-<b>Keyserver: <a target="_blank" href="https://keys.openpgp.org/search?q=F1C6636C27019FD0D29307DEAE25CBF30C0DDB0C">keys.openpgp.org</a></b>
-
 IPC Example
 ---------
 We provided a sample application for Node.js in the *./nodejs-client* folder.   
